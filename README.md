@@ -385,4 +385,4 @@ Driver-level operational trends
 
 #### Dashboard Preview
 
-![PickBy Fleet Fuel & Maintenance Analysis Dashboard](
+![PickBy Driver Performance & Safety Analysis Dashboard](visuals/pickby_driver_performance_&_safety.png)
