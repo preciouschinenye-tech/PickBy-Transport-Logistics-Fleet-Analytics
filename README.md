@@ -1,7 +1,7 @@
 ### PickBy-Transport-Logistics-Fleet-Analytics
 An end-to-end Power BI analytics project analyzing revenue, service reliability, fleet efficiency, fuel costs, maintenance, driver performance, and safety for a fictional transportation and logistic company. 
  
-# Project Presentation
+### Project Presentation
 
 PickBy Transport & Logistics is a fictional trucking and logistics company operating across a fleet of trucks, trailers, drivers, routes, customers, and delivery facilities.
 
@@ -19,7 +19,8 @@ The objective of this project was to transform multiple raw CSV datasets into a 
 The project follows an end-to-end data analytics workflow:
 
 Raw CSV Data → Power Query → Data Cleaning → Data Modeling → DAX Measures → Power BI Dashboards → Business 
-## 📊 Project Overview
+
+### 📊 Project Overview
 
 Project Type
 
@@ -53,7 +54,7 @@ Supporting Tools
 * CSV
 * PowerPoint
 
-# 🎯 Business Objectives
+### 🎯 Business Objectives
 
 The project was designed around four major business areas.
 
@@ -124,7 +125,8 @@ The project contains 14 related tables covering different areas of the transport
 | `truck_utilization_metrics` | Monthly truck utilization metrics |
 
 A detailed data dictionary/key guide is maintained separately from the main README.  
-# 🧹 Data Preparation & Cleaning
+
+### 🧹 Data Preparation & Cleaning
 
 The source data was initially provided as multiple CSV files.
 
@@ -143,7 +145,7 @@ Main preparation steps
 * Validated aggregated monthly metric tables
 * Preserved relevant missing values rather than creating artificial information
 
-Data Quality Observations
+### Data Quality Observations
 
 Some fields contained missing values, particularly within operational relationships such as driver, truck and trailer identifiers.
 
@@ -152,7 +154,8 @@ Approximately 2% of trip records contained missing driver, truck or trailer iden
 These records were retained because the missing values represent a limitation in the source dataset rather than values that should be artificially replaced.
 
 The project also identified fields with little or no variation. For example, load_status and fuel_type contained single-value information in the dataset. These fields were retained but were not treated as meaningful segmentation variables.  
-# 🏗️ Data Model
+
+### 🏗️ Data Model
 
 The Power BI model was designed around the relationships between customers, loads, trips, fleet assets and operational events.
 
@@ -180,7 +183,7 @@ Trips ───────────────> Delivery Events ───�
 Trips ───────────────> Safety Incidents
 ```
 
-### Main Relationships
+Main Relationships
 
 * Customers 1 → many Loads
 * Routes 1 → many Loads
@@ -198,7 +201,7 @@ Trips ───────────────> Safety Incidents
 
 Most relationships use single-direction filtering to keep the model predictable and avoid unnecessary ambiguity.
 
-# 📐 Key Measures & DAX
+### 📐 Key Measures & DAX
 
 More than 25 DAX measures were created to support the analysis.
 
@@ -256,7 +259,7 @@ Avg Driver On-Time Rate = AVERAGE(driver_monthly_metrics[on_time_delivery_rate]
 Sum of Reported Avg Idle Hours = SUM(driver_monthly_metrics[average_idle_hours]
 )
 
-# 📅 Time Intelligence
+### 📅 Time Intelligence
 
 A dedicated Date table was created to support time-based analysis.
 
@@ -278,17 +281,17 @@ Revenue Last Year =CALCULATE([Total Revenue],SAMEPERIODLASTYEAR('Date'[Date])
 Revenue YoY % = DIVIDE([Total Revenue] - [Revenue Last Year],[Revenue Last Year],
 )
 
-# 📊 Dashboard Structure
+### 📊 Dashboard Structure
 
 The final Power BI report is organized into four dashboards.
 
 #### Executive Overview
 
-## Business Question
+#### Business Question
 
 How is the business performing overall?
 
-## Headline KPIs
+#### Headline KPIs
 
 * Total Revenue
 * Total Loads
@@ -296,7 +299,7 @@ How is the business performing overall?
 * On-Time Delivery %
 * Revenue YoY %
 
-## Analysis
+#### Analysis
 
 * Revenue trend over time
 * Revenue by customer
@@ -304,24 +307,24 @@ How is the business performing overall?
 * Revenue by route
 * Revenue relative to distance travelled
 
-## Dashboard Preview
+#### Dashboard Preview
 
 ![PickBy Executive Overview Analysis Dashboard](visuals/pickby_executive-overview.png)
 
 #### Dashboard 2 — Service Reliability
 
-## Business Question
+#### Business Question
 
 How reliable is the company's delivery operation?
 
-## Headline KPIs
+#### Headline KPIs
 
 On-Time Delivery %
 Late Delivery %
 Average Detention
 Delivery Volume
 
-## Analysis
+#### Analysis
 
 On-time vs. late delivery performance
 Delivery performance over time
@@ -330,11 +333,11 @@ Reliability by customer
 Detention patterns
 Late delivery concentration
 
-## Dashboard Preview
+#### Dashboard Preview
 
 ![PickBy Service Reliability Analysis Dashboard](visuals/pickby_service_reliability.png)
 
-### Dashboard 3 — Fleet, Fuel & Maintenance
+#### Dashboard 3 — Fleet, Fuel & Maintenance
 
 #### Business Question
 
@@ -361,7 +364,7 @@ Truck-level operational performance
 
 ![PickBy Fleet Fuel & Maintenance Analysis Dashboard](visuals/pickby-fleet-fuel-maintenance.png)
 
-### Dashboard 4 — Driver Performance & Safety
+#### Dashboard 4 — Driver Performance & Safety
 
 #### Business Question
 
