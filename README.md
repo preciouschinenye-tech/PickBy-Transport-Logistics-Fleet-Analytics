@@ -333,3 +333,29 @@ Late delivery concentration
 ## Dashboard Preview
 
 ![PickBy Service Reliability Analysis Dashboard](visuals/pickby_service_reliability.png)
+
+## Dashboard 3 — Fleet, Fuel & Maintenance
+
+#### Business Question
+
+How efficiently is the fleet operating?
+
+#### Headline KPIs
+
+Total Fuel Cost
+Total Miles
+Fuel Cost per Mile
+Fleet Average MPG
+Total Maintenance Cost
+
+#### Analysis
+
+Fuel cost trends
+Fuel price trends
+Fuel cost relative to revenue
+Maintenance cost by type
+Fleet MPG trends
+Truck-level operational performance
+
+#### Dashboard Preview
+
