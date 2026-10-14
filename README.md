@@ -334,7 +334,7 @@ Late delivery concentration
 
 ![PickBy Service Reliability Analysis Dashboard](visuals/pickby_service_reliability.png)
 
-## Dashboard 3 — Fleet, Fuel & Maintenance
+### Dashboard 3 — Fleet, Fuel & Maintenance
 
 #### Business Question
 
@@ -359,3 +359,30 @@ Truck-level operational performance
 
 #### Dashboard Preview
 
+![PickBy Fleet Fuel & Maintenance Analysis Dashboard](visuals/pickby-fleet-fuel-maintenance.png)
+
+### Dashboard 4 — Driver Performance & Safety
+
+#### Business Question
+
+How are drivers performing, and where are safety risks concentrated?
+
+#### Headline KPIs
+
+Total Safety Incidents
+Average Driver On-Time Rate
+Average Driver MPG
+Reported Average Idle Hours
+
+#### Analysis
+
+Driver performance
+Driver on-time delivery rate
+Driver MPG
+Safety incidents by driver
+Safety incidents by type
+Driver-level operational trends
+
+#### Dashboard Preview
+
+![PickBy Fleet Fuel & Maintenance Analysis Dashboard](
