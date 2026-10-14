@@ -284,11 +284,11 @@ The final Power BI report is organized into four dashboards.
 
 #### Executive Overview
 
-Business Question
+## Business Question
 
 How is the business performing overall?
 
-Headline KPIs
+## Headline KPIs
 
 * Total Revenue
 * Total Loads
@@ -296,7 +296,7 @@ Headline KPIs
 * On-Time Delivery %
 * Revenue YoY %
 
-Analysis
+## Analysis
 
 * Revenue trend over time
 * Revenue by customer
@@ -304,6 +304,32 @@ Analysis
 * Revenue by route
 * Revenue relative to distance travelled
 
-Dashboard Preview
+## Dashboard Preview
 
 ![PickBy Executive Overview Analysis Dashboard](visuals/pickby_executive-overview.png)
+
+#### Dashboard 2 — Service Reliability
+
+## Business Question
+
+How reliable is the company's delivery operation?
+
+## Headline KPIs
+
+On-Time Delivery %
+Late Delivery %
+Average Detention
+Delivery Volume
+
+## Analysis
+
+On-time vs. late delivery performance
+Delivery performance over time
+Reliability by destination
+Reliability by customer
+Detention patterns
+Late delivery concentration
+
+## Dashboard Preview
+
+![PickBy Service Reliability Analysis Dashboard](visuals/pickby_service_reliability.png)
