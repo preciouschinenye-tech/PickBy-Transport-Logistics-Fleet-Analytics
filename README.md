@@ -389,3 +389,29 @@ Driver-level operational trends
 #### Dashboard Preview
 
 ![PickBy Driver Performance & Safety Analysis Dashboard](visuals/pickby_driver_performance_&_safety.png)
+
+###🔎 Key Findings
+
+#### Revenue Performance
+
+Revenue remained relatively flat across the analysis period, with approximately $99M generated annually.
+
+The analysis also examined revenue contribution across customers and routes rather than relying only on total revenue.
+
+#### Service Reliability
+
+On-time delivery performance was approximately 44%.
+
+The analysis indicates that service reliability is an important operational area to investigate, particularly across routes, customers and facilities.
+
+#### Fleet & Fuel
+
+Fuel costs declined during the period as diesel prices decreased from approximately $4.20 to $3.65 per gallon.
+
+However, fleet MPG remained relatively stable, suggesting that lower fuel expenditure was not primarily the result of a major improvement in fuel efficiency.
+
+#### Driver & Safety
+
+Safety incidents were concentrated among two drivers, making driver-level analysis important when investigating the operational safety profile.
+
+Driver monthly metrics were also used to examine differences in on-time performance, MPG and reported idle hours.
