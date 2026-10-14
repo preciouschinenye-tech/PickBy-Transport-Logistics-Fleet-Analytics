@@ -415,3 +415,29 @@ However, fleet MPG remained relatively stable, suggesting that lower fuel expend
 Safety incidents were concentrated among two drivers, making driver-level analysis important when investigating the operational safety profile.
 
 Driver monthly metrics were also used to examine differences in on-time performance, MPG and reported idle hours.
+
+### ⚠️ Data Limitations
+
+The analysis is subject to limitations within the source dataset.
+
+#### Missing Operational Identifiers
+
+Some trip records contain missing driver, truck or trailer identifiers.
+
+This limits the ability to attribute every operational record to a specific driver or asset.
+
+#### Fuel Data
+
+Fuel purchases represent recorded fuel transactions. Fuel purchased does not necessarily represent the exact amount of fuel consumed during individual trips.
+
+Therefore, fleet-level MPG and driver-level MPG should not automatically be expected to reconcile.
+
+#### Aggregated Driver Metrics
+
+driver_monthly_metrics contains monthly aggregated driver information rather than individual trip-level records.
+
+This means driver-level measures should be interpreted at the appropriate monthly aggregation level.
+
+Synthetic Dataset
+
+The dataset is designed for educational and portfolio purposes and does not represent actual company operations.
