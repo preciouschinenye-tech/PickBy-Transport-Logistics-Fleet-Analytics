@@ -305,3 +305,5 @@ Analysis
 * Revenue relative to distance travelled
 
 Dashboard Preview
+
+![PickBy Executive Overview Analysis Dashboard](visuals/pickby_executive-overview.png)
