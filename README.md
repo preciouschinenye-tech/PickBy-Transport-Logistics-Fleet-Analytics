@@ -456,11 +456,11 @@ If additional project time or operational data were available, I would:
 
 ### 🛠️ Tools & Technologies
 
-|Tool | |Purpose |
+| Tool | Purpose |
 |---|---|
-|Power BI | Data modeling, DAX and dashboard development |
-|Power Query |	Data cleaning and transformation |
-|DAX |	Measures and time-intelligence calculations |
-|Excel |	Source-data inspection and preparation |
-|CSV |	Source data format |
-|PowerPoint |	Dashboard planning and wireframing |
+| Power BI | Data modeling, DAX and dashboard development |
+| Power Query | Data cleaning and transformation |
+| DAX | Measures and time-intelligence calculations |
+| Excel | Source-data inspection and preparation |
+| CSV | Source data format |
+| PowerPoint | Dashboard planning and wireframing |
