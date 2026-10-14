@@ -441,3 +441,26 @@ This means driver-level measures should be interpreted at the appropriate monthl
 Synthetic Dataset
 
 The dataset is designed for educational and portfolio purposes and does not represent actual company operations.
+
+### 💡 What I Would Improve
+
+If additional project time or operational data were available, I would:
+
+. Investigate the root causes of missing driver, truck and trailer identifiers.
+. Add drill-through pages for individual driver and truck performance.
+. Further investigate fuel purchased versus fuel consumed.
+. Add more detailed route profitability analysis.
+. Introduce more operational cost components where available.
+. Add automated refresh and reporting workflows.
+. Develop alerts for significant changes in service reliability, fuel cost or safety incidents.
+
+### 🛠️ Tools & Technologies
+
+|Tool | |Purpose
+|---|---|
+|Power BI | Data modeling, DAX and dashboard development
+|Power Query |	Data cleaning and transformation
+|DAX |	Measures and time-intelligence calculations
+|Excel |	Source-data inspection and preparation
+|CSV |	Source data format
+|PowerPoint |	Dashboard planning and wireframing
