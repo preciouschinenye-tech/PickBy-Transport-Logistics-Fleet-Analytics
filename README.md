@@ -1,7 +1,6 @@
 # PickBy-Transport-Logistics---Fleet-Analytics
 An end-to-end Power BI analytics project analyzing revenue, service reliability, fleet efficiency, fuel costs, maintenance, driver performance, and safety for a fictional transportation and logistic company. 
-# pickby-transport-fleet-analytics-
-An end-to-end Power BI analytics project analyzing revenue, service reliability, fleet efficiency, fuel costs, maintenance, driver performance, and safety for a fictional transportation and logistics company.
+ 
 # Project Presentation
 
 PickBy Transport & Logistics is a fictional trucking and logistics company operating across a fleet of trucks, trailers, drivers, routes, customers, and delivery facilities.
@@ -53,6 +52,7 @@ Supporting Tools
 * Excel
 * CSV
 * PowerPoint
+
 # 🎯 Business Objectives
 
 The project was designed around four major business areas.
